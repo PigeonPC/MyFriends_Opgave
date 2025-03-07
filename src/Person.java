@@ -33,4 +33,9 @@ public class Person {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    public String toString(){
+        return name + " - " + email + " - " + phone;
+    }
+
 }
