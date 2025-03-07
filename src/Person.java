@@ -10,6 +10,12 @@ public class Person {
         this.phone = phone;
     }
 
+    public Person() {
+        this.name = "";
+        this.email = "";
+        this.phone = "";
+    }
+
     public String getName() {
         return name;
     }
@@ -33,4 +39,9 @@ public class Person {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    public String toString(){
+        return name + " - " + email + " - " + phone;
+    }
+
 }

@@ -1,8 +1,17 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        ArrayList<Person> people = new ArrayList<>();
+
+        //Display Person ArrayList
+        System.out.println("People:");
+        for (Person person : people) {
+            System.out.println(person);
+        }
     }
 
 
