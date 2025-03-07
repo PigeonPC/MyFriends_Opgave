@@ -5,6 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
     }
 
+
     public static void run(Scanner scanner) {
 
         System.out.println("MENU");
