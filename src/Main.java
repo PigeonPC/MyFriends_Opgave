@@ -46,4 +46,10 @@ public class Main {
                 break;
         }
     }
+
+    public static void showList() {
+        for (int i = 0; i < arraylist.size; i++) {
+            System.out.println("");
+        }
+    }
 }
