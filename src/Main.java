@@ -5,10 +5,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        ArrayList<Person> persons = new ArrayList<>();
+        ArrayList<Person> people = new ArrayList<>();
 
+        //Display Person ArrayList
         System.out.println("People:");
-        for (Person person : persons) {
+        for (Person person : people) {
             System.out.println(person);
         }
     }
